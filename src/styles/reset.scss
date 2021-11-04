@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,*:before,*:after { box-sizing: inherit; }
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+
+h1,h2,h3,h4,h5 {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "upw-qrscanner-project",
+  "version": "1.0.0",
+  "description": "A qrcode scanner project",
+  "scripts": {
+    "dev:assets": "webpack --watch",
+    "dev:start": "live-server --open=./public/ --host=localhost --watch=./public/",
+    "dev": "npm-run-all -p dev:*",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.5.0",
+    "cssnano": "^5.0.9",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^2.4.3",
+    "node-sass": "^6.0.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-loader": "^6.2.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass-loader": "^12.3.0",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "dependencies": {
+    "html5-qrcode": "^2.1.2"
+  }
+}
